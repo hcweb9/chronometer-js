@@ -1,0 +1,86 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  background-color: #e8effa;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout__main {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout__container-chrono {
+  margin-bottom: 1rem;
+}
+
+.layout__chrono {
+  width: 25rem;
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.layout__btns {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.layout__btn-start,
+.layout__btn-stop,
+.layout__btn-reset {
+  width: 100%;
+  border: none;
+  background-color: #ec3d3d;
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 0rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+
+.layout__btn-stop {
+  background-color: #cccccc;
+  color: white;
+}
+
+.layout__btn-reset {
+  background-color: #116df7;
+  color: white;
+}
+
+.layout__btn-start:hover {
+  background-color: rgb(16, 163, 16);
+}
+
+.layout__btn-stop:hover {
+  background-color: rgb(22, 21, 21);
+}
+
+.layout__btn-reset:hover {
+  background-color: rgb(240, 163, 21);
+}
